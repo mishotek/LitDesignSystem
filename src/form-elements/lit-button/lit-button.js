@@ -11,7 +11,9 @@ export class LitButton extends LitElement {
         return css`
             :host {
                 display: inline-block;
-                --button-bg: var(--background-color, var(--pink-30));
+                --button-bg: var(--background-color, var(--pink-2));
+                --button-bg-hover: var(--background-hover-color, var(--pink-3));
+                --button-bg-active: var(--background-active-color, var(--pink-2));
                 --button-color: var(--color, var(--grey-0));
             }
             
@@ -20,6 +22,22 @@ export class LitButton extends LitElement {
                 border: none;
                 background-color: var(--button-bg);
                 color: var(--button-color);
+                border-radius: var(--border-2);
+                box-shadow: var(--elevation-2);
+                will-change: box-shadow, background-color;
+                transition: box-shadow 0.1s, background-color 0.1s;
+                height: 32px;
+                padding: 0 var(--space-small);
+                outline: none;
+            }
+
+            .lit-button:hover {
+                background-color: var(--button-bg-hover);
+            }
+
+            .lit-button:active {
+                background-color: var(--button-bg-active);
+                box-shadow: var(--elevation-1);
             }
         `;
     }

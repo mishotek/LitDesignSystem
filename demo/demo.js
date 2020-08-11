@@ -14,7 +14,11 @@ export class LitDemo extends LitElement {
 
     render() {
         // language=html
-        return html`<lit-button>hi</lit-button>`;
+        return html`
+            <div style="display: flex; flex-direction: column;">
+                <lit-button>Regular button</lit-button>
+            </div>
+        `;
     }
 }
 
