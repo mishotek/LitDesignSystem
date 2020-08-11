@@ -1,0 +1,36 @@
+.styles {
+    /* Colors */
+    --grey-0: #FFFFFF;
+    --grey-10: #F2F2F2;
+    --grey-20: #EBEBEB;
+    --grey-30: #767676;
+    --grey-40: #494949;
+
+    --green-10: #B3D9DA;
+    --green-20: #008689;
+    --green-30: #006C6F;
+
+    --pink-10: #FF9E9F;
+    --pink-20: #FE5A61;
+    --pink-30: #EF585D;
+
+    --violet-10: #F4D4E3;
+    --violet-20: #A41D55;
+    --violet-30: #8C1845;
+
+    --yellow-30: #FFB401;
+
+    --orange-30: #D93801;
+
+    /* spacing */
+    --space-micro: 4px;
+    --space-tiny: 8px;
+    --space-small: 16px;
+    --space-standard: 24px;
+    --space-semi: 32px;
+    --psace-large: 48px;
+    --spaxe-xlarge: 64px;
+
+    /* Shadows */
+    --shadow-flat: 0 0 0 0 transparent;
+}

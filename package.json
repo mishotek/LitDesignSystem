@@ -1,0 +1,33 @@
+{
+  "name": "lit-design-system",
+  "version": "0.0.1",
+  "description": "Design system written using LitElement. Designed to be used anywhere and with any frameworks",
+  "main": "demo/index.js",
+  "scripts": {
+    "demo": "es-dev-server --app-index demo/index.html --node-resolve --watch --open",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishotek/LitDesignSystem.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "lit",
+    "element"
+  ],
+  "author": "Mikheil Tektumanidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mishotek/LitDesignSystem/issues"
+  },
+  "homepage": "https://github.com/mishotek/LitDesignSystem#readme",
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.57.2"
+  }
+}
